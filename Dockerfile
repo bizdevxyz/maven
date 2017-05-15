@@ -1,5 +1,5 @@
 FROM tomcat:8.5.13-alpine
-MAINTAINER davidell@comcast.net
+MAINTAINER bizdevxyz@gmail.com
 COPY *.war /usr/local/tomcat/webapps/
 COPY index.html /usr/local/tomcat/webapps/ROOT/
 COPY index.jsp /usr/local/tomcat/webapps/ROOT/
