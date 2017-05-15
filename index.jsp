@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Welcome CVS!</title>
+<title>Welcome Altimetrik!</title>
 </head>
 
 <body>
