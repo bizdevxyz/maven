@@ -9,4 +9,3 @@ COPY cvs.jpeg /usr/local/tomcat/webapps/ROOT/
 #COPY ./my-app/target/#POM_DISPLAYNAME#-#POM_VERSION#.#POM_PACKAGING# /usr/local/tomcat/webapps/
 #RUN chown \-R tomcat:tomcat /opt && chmod \-R 777 /opt
 #CMD ["catalina.sh", "run]
-#
