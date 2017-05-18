@@ -4,7 +4,7 @@
   <groupId>xyz.bizdev.app</groupId>
   <artifactId>myapp</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
   <name>myapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
