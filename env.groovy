@@ -1,0 +1,11 @@
+env.DB__DOCKERREPO="192.168.0.114/bizdevxyz"
+env.DB__DOCKERPW="Password1"
+env.DB__DOCKERUSER="user1"
+env.DB__DOCKERREPLICAS="2"
+env.DB__ENVIRONMENT="DEV"
+env.DB__APPPORT="8080"
+env.DB__APPURL="http://maven1.someorg.xyz"
+env.DB__DESTROY=0
+// env.DB_DOCKER_CONTENT_TRUST=1
+// env.DB_DOCKER_TLS_VERIFY=1
+// env.DB_DOCKER_CERT_PATH=/tmp/maven/myapp
