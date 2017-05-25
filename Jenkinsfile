@@ -30,7 +30,7 @@ node {
             sh "docker rmi ${env.DB__DOCKERREPO}/$JOB_NAME:$BUILD_NUMBER"
             sh "docker rmi $JOB_NAME"
         stage 'Deploy build'
-                sh "$HOME/createservice.sh $JOB_NAME $BUILD_NUMBER ${env.DB__APPPORT} ${env.DB__APPURL} ${env.DB__DOCKERREPO} ${env.DB__DOCKERREPLICAS}"       
+                sh "/var/lib/jenkins/createservice.sh $JOB_NAME $BUILD_NUMBER ${env.DB__APPPORT} ${env.DB__APPURL} ${env.DB__DOCKERREPO} ${env.DB__DOCKERREPLICAS}"       
         stage 'Finalize'
             slackSend "Build Completed - ${env.JOB_NAME}-${env.BUILD_NUMBER}"
     }
